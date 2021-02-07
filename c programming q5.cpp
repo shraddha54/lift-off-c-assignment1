@@ -15,10 +15,10 @@ switch(c)
 	case 'I':
 	case 'O':
 	case 'U':
-	printf(" %c is Vowel\n" ,&c);
+	printf(" %c is Vowel\n" ,c);
 	break;
 default:
-	printf("%c is consonant\n", &c);
+	printf(" %c is consonant\n", c);
 }
 return 0;	
 }
